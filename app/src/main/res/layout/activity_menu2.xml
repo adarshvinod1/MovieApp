@@ -5,65 +5,58 @@
     android:background="@drawable/bg"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/baseline_account_circle_24"></ImageView>
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LOGIN"
+        android:text="MENU"
         android:textSize="30sp"
         android:textStyle="bold"
         android:gravity="center"
         android:layout_marginBottom="20sp"
         android:textColor="@color/black"
         />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="USERNAME:"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_marginHorizontal="30sp"
-        android:textColor="@color/black"
-        />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:layout_marginHorizontal="30sp"
-        android:layout_marginBottom="20sp"
-        android:drawableLeft="@drawable/baseline_account_box_24"
-        android:id="@+id/uname"
 
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="PASSWORD:"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_marginHorizontal="30sp"
-        android:textColor="@color/black"
-        />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:layout_marginHorizontal="30sp"
-        android:layout_marginBottom="20sp"
-        android:inputType="number"
-        android:id="@+id/pass"
-        android:drawableLeft="@drawable/baseline_enhanced_encryption_24"
-        />
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30sp"
-        android:text="LOGIN"
+        android:text="add movie"
         android:background="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/login"
+        android:layout_marginBottom="20sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:text="search movie"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/login"
+        android:layout_marginBottom="20sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:text="view all movies"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/login"
+        android:layout_marginBottom="30sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:text="exit"
+        android:background="#F44336"
         android:textColor="@color/white"
         android:id="@+id/login"
         />
